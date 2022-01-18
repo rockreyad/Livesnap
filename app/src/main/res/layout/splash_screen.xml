@@ -21,10 +21,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/app_name"
+            android:shadowColor="@color/black"
+            android:shadowRadius="20"
+            android:shadowDx="10"
+            android:shadowDy="30"
             android:fontFamily="@font/blinkerbold"
             android:textSize="60sp"
             android:textColor="@color/white"
             android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send snap from gallery"
+            android:fontFamily="@font/blinkerbold"
+            android:gravity="center"
+            android:textColor="#FADCDBDB"
+            android:textSize="17sp"/>
     </LinearLayout>
 
     <LinearLayout

@@ -117,6 +117,7 @@
                     android:textSize="18sp"
                     android:textColor="#5257FC"/>
                 <Button
+                    android:id="@+id/buttonSignIn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
@@ -129,6 +130,7 @@
             </LinearLayout>
 
             <TextView
+                android:id="@+id/signUpLink"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
