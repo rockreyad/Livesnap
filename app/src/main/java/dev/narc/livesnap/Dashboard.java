@@ -23,7 +23,6 @@ public class Dashboard extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(Dashboard.this,Profile.class);
                 startActivity(intent);
-                finish();
             }
         });
     }

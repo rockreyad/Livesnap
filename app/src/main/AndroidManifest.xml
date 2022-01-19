@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Livesnap">
         <activity
+            android:name=".SnapUserName"
+            android:exported="false" />
+        <activity
             android:name=".UserDetails"
             android:exported="false" />
         <activity
